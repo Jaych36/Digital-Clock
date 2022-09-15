@@ -20,7 +20,7 @@ s = s < 10  ? "0" + s : s;
     hoursE1.innerText = h;
     minutesE1.innerText = m;
     secondsE1.innerText = s;
-    ampmE1, (innerText = ampm);
+    ampmE1.innerText = ampm;
     setTimeout(()=>{
     updateClock()
     },1000)
